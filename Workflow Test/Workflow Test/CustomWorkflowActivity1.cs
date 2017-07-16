@@ -50,7 +50,7 @@ namespace Workflow_Test
                 CreateContactEntity["firstname"] = ContactFirstName.Get(context);
                 CreateContactEntity["lastname"] = ContactLastName.Get(context);
 
-                CreatedContactId.Set(context, orgServiceConext.Create(CreateContactEntity);
+                CreatedContactId.Set(context, orgServiceConext.Create(CreateContactEntity));
 
                 traceObj.Trace("Workflow End successfully");
             }
